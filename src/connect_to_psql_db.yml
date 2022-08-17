@@ -1,0 +1,16 @@
+---
+name: Connect to Postgres database
+command: docker container exec -it shell_devcontainer-postgres-1 /bin/sh
+categories:
+- Postgres
+- Analytics
+arguments:
+- name: host
+  description: IP of the host you're connecting to
+  default_value: 127.0.0.1
+- name: user
+  description: Username for database
+  default_value: cased
+- host: password
+  description: Password for database
+  default_value: ''
