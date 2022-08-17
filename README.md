@@ -1,1 +1,1 @@
-Snippets are under folder `src`
+For testing purpose
