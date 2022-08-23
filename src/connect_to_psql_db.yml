@@ -11,6 +11,6 @@ arguments:
 - name: user
   description: Username for database
   default_value: cased
-- host: password
+- name: password
   description: Password for database
   default_value: ''
