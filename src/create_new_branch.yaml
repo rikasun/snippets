@@ -1,5 +1,5 @@
 ---
 name: Create a new branch
-command: git checkout -b $branch_name \n git push origin $branch_name
+command: git checkout -b $branch_name \n git push $origin $branch_name
 categories:
 - Github
